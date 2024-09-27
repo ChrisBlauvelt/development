@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/nixos.org) (preloaded format=xelatex 1980.1.1)  26 SEP 2024 22:40
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/nixos.org) (preloaded format=xelatex 1980.1.1)  27 SEP 2024 00:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -903,15 +903,15 @@ Package microtype Info: Loading generic protrusion settings for font family
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(74.68848pt, 448.1309pt, 74.68849pt)
-* v-part:(T,H,B)=(84.50467pt, 633.78513pt, 126.75705pt)
+* h-part:(L,W,R)=(89.62709pt, 418.25368pt, 89.6271pt)
+* v-part:(T,H,B)=(101.40665pt, 591.5302pt, 152.11pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=448.1309pt
-* \textheight=633.78513pt
-* \oddsidemargin=2.41849pt
-* \evensidemargin=2.41849pt
-* \topmargin=-24.76532pt
+* \textwidth=418.25368pt
+* \textheight=591.5302pt
+* \oddsidemargin=17.3571pt
+* \evensidemargin=17.3571pt
+* \topmargin=-7.86334pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=11.0pt
@@ -991,6 +991,9 @@ Package hyperref Info: Link coloring OFF on input line 28.
 \@outlinefile=\write4
 \openout4 = `resume.out'.
 
+\pagenumberwidth=\skip98
+LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <10> not available
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 28.
 \makecvheaddetailsbox=\box69
 
 (/nix/store/rh2w1bhfx9x458nc45fmb0xjnsvhrs1l-texlive-combined-2023-texmfdist/te
@@ -1016,8 +1019,8 @@ ndard glyph set (RS)
 \makecvheadpicturebox=\box70
 File: /home/chris/testing/latex/headshot.jpg Graphic file (type bmp)
 </home/chris/testing/latex/headshot.jpg>
-\makecvheaddetailswidth=\skip98
-\makecvheadpicturewidth=\skip99
+\makecvheaddetailswidth=\skip99
+\makecvheadpicturewidth=\skip100
 \makecvheadnamebox=\box71
 
 Underfull \hbox (badness 10000) in paragraph at lines 29--29
@@ -1032,21 +1035,66 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 31.
 [1
 
-] (./resume.aux)
+]
+Underfull \hbox (badness 7291) in paragraph at lines 59--59
+[]\TU/lmss/m/n/10.95 Starting my working life
+ []
+
+
+Underfull \hbox (badness 2662) in paragraph at lines 59--59
+\TU/lmss/m/n/10.95 in the restaurant industry
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--59
+\TU/lmss/m/n/10.95 problem-solving techniques,
+ []
+
+
+Underfull \hbox (badness 1776) in paragraph at lines 59--59
+\TU/lmss/m/n/10.95 paired with my degree in
+ []
+
+
+Underfull \hbox (badness 7981) in paragraph at lines 59--59
+\TU/lmss/m/n/10.95 diverse work background–
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--59
+\TU/lmss/m/n/10.95 including positions as a
+ []
+
+
+Underfull \hbox (badness 5954) in paragraph at lines 59--59
+\TU/lmss/m/n/10.95 Brand Ambassador for a
+ []
+
+
+Underfull \hbox (badness 4967) in paragraph at lines 59--59
+\TU/lmss/m/n/10.95 trainers at The El Felix
+ []
+
+
+Underfull \hbox (badness 1365) in paragraph at lines 59--59
+[]\TU/lmss/m/n/10.95 Playing off of these same
+ []
+
+[2] (./resume.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
 Package rerunfilecheck Info: File `resume.out' has not changed.
-(rerunfilecheck)             Checksum: DDB450CCCE538567998633867A95D77E;387.
+(rerunfilecheck)             Checksum: BC8C1063A84CF1C795DAE4A836FC19E8;644.
  ) 
 Here is how much of TeX's memory you used:
- 26529 strings out of 475980
- 551788 string characters out of 5768027
- 1940839 words of memory out of 5000000
- 48175 multiletter control sequences out of 15000+600000
+ 26531 strings out of 475980
+ 551827 string characters out of 5768027
+ 1945839 words of memory out of 5000000
+ 48177 multiletter control sequences out of 15000+600000
  561360 words of font info for 70 fonts, out of 8000000 for 9000
  430 hyphenation exceptions out of 8191
  129i,13n,129p,1004b,470s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on resume.pdf (1 page).
+Output written on resume.pdf (2 pages).
