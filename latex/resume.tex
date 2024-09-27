@@ -1,0 +1,53 @@
+%!TEX TS-program = xelatex
+\documentclass[11pt,a4paper,sans]{moderncv}
+\moderncvstyle{classic}
+\moderncvcolor{blue}
+
+\usepackage[scale=0.75]{geometry}
+\usepackage{fontawesome5}
+
+% Add these packages for image support
+\usepackage{graphicx}
+\usepackage{tikz}
+
+% Added package for advanced font handling 
+\usepackage{fontspec}
+% Personal Inforamtion 
+\name{Chris}{Blauvelt}
+\title{Resume}
+\address{872 Cambron Commons Trace}{Suwanee, GA 30024}
+\phone[mobile]{470-962-1059}
+\email{chris@blauv.net}
+\social[linkedin]{christopherblauveltjr}
+\social[github]{chrisblauvelt}
+\homepage{https://techieneighbor.net/}
+
+% Use the photo command
+\photo[74pt][0.4pt]{/home/chris/testing/latex/headshot.jpg}
+
+\begin{document}	
+\makecvtitle
+
+\section{Education}
+\cventry{2012--2016}{Bachelor of Arts}{Appalachian State University}{Boone}{}{Major: Philosophy}
+
+\section{Experience}
+\cventry{2021--2024}{I.T. Project + Deployment Engineer}{360 Smart Networks}{Roswell}{}{
+\begin{itemize}
+\item Developed and maintained processes and best practice documentation for software integrations, UNIX commandline best practices for appliance-based distributions, as well as Microsoft Entra I.D. and Azure
+\item Collaborated with cross-functional teams to meet expected deadlines and targets, while maintaining the highest degree of security and reproducibility for an MSP that was undergoing an enormous growth period
+\end{itemize}
+}
+
+
+\section{Current Projects/Specializations}
+\cventry{IaC}{LaTeX and Infrastructure As Code}{}{}{}{
+	\begin{itemize}
+		\item Currently I am using NixOS as my "daily-driver" operating system, as it allows me the ability to create declarative shell environments to quickly test packages.
+		\item Using LaTeX as well as an IDE allowed me the granularity that I was seeking when creating a personalized resume, and the journey of implementing it has been a fun challenge!
+		\item Building my personal website using a static site generated with next.js and deployed using Github has been an amazing opportunity to compile all of my systems-administration skills to be able to host the site completely for free, aside from the domain name. This project strengthened my systems-administration acumen, and helped to increase my CI/CD comprehension with a NO2-like boost, not to mention re-igniting my love for back-end web development 
+	\end{itemize}
+}
+
+
+\end{document}
